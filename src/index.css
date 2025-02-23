@@ -6,3 +6,11 @@
     display: none;
   }
   
+* {
+  scrollbar-width: none !important;
+}
+
+/* Hide scrollbar for IE & Edge */
+* {
+  -ms-overflow-style: none !important;
+}
